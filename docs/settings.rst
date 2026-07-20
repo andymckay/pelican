@@ -687,6 +687,10 @@ template.
 
    The location to save the list of all articles. The default is ``"index.html"``.
 
+Note
+
+If you do not want one or more of the list pages to be created (e.g., you are the only author on your site and thus do not need a listing of Authors), set the corresponding *_SAVE_AS setting to "" to prevent the relevant page from being generated.
+
 URLs for direct template pages are theme-dependent. Some themes use
 corresponding ``*_URL`` setting as string, while others hard-code them:
 ``"archives.html"``, ``"authors.html"``, ``"categories.html"``,
