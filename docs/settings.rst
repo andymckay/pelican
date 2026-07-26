@@ -694,7 +694,6 @@ template.
 
    The location to save the list of all articles. The default is ``"index.html"``.
 
-
 URLs for direct template pages are theme-dependent. Some themes use
 corresponding ``*_URL`` setting as string, while others hard-code them:
 ``"archives.html"``, ``"authors.html"``, ``"categories.html"``,
